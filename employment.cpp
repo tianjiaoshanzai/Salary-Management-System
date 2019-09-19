@@ -1,4 +1,5 @@
-﻿#include "employment.h"
+﻿#include "stdafx.h"
+#include "employment.h"
 #define MAXLEN 1000//人数预估的最大值
 #include <stdio.h>
 #include <iostream>
@@ -67,7 +68,7 @@ using namespace std;
 			fprintf(fp, "%s ", "\n");
 			system("cls");
 			
-			
+			i++;
 
 			cout << "若还有人需要录入，输入1，暂时无人录入，输入0：\n";
 			cin >> flag;
